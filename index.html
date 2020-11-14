@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2d78e61024.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Brian Tomas Flores</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Koya Web</h1>
+                <p>Desarrollo web</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Tecnologia</a>
+                <a href="#">Animales</a>
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item" 
+                data-categoria="tecnologia"
+                data-etiquetas="tecnologia computadora"
+                data-descripcion="2.-Tecnologia 2."
+                >
+                <div class="item-contenido">
+                    <img src="img/02.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+                data-categoria="tecnologia"
+                data-etiquetas="tecnologia celular"
+                data-descripcion="1.-Tecnologia 1."
+                >
+                <div class="item-contenido">
+                    <img src="img/01.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="item" 
+                data-categoria="tecnologia"
+                data-etiquetas="tecnologia computadora tactil"
+                data-descripcion="3.-Tecnologia 3."
+                >
+                <div class="item-contenido">
+                    <img src="img/03.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="naturaleza"
+                data-etiquetas="naturaleza bosque"
+                data-descripcion="4.-Naturaleza 1."
+                >
+                <div class="item-contenido">
+                    <img src="img/04.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="naturaleza"
+                data-etiquetas="naturaleza fuente"
+                data-descripcion="5.-Naturaleza 2."
+                >
+                <div class="item-contenido">
+                    <img src="img/05.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="naturaleza"
+                data-etiquetas="naturaleza cielo estrella"
+                data-descripcion="6.-Naturaleza 3."
+                >
+                <div class="item-contenido">
+                    <img src="img/06.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                data-categoria="animales"
+                data-etiquetas="animales tigre"
+                data-descripcion="7.-Animales 1."
+                >
+                <div class="item-contenido">
+                    <img src="img/07.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+                data-categoria="animales"
+                data-etiquetas="animales mono"
+                data-descripcion="8.-Animales 2."
+                >
+                <div class="item-contenido">
+                    <img src="img/08.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+                data-categoria="animales"
+                data-etiquetas="animales nocturno"
+                data-descripcion="9.-Animales 3."
+                >
+                <div class="item-contenido">
+                    <img src="img/09.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+        
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="" target="blank" class="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="" target="blank" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="" target="blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por">
+                <p>Sitio desarrollado por <a href="https://briantomasflores.com.ar/">Brian Tomas Flores</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    
+    <script src="main.js"></script>
+</body>
+</html>
