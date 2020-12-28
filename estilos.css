@@ -23,7 +23,7 @@ a{
 /*-------------------------------------------------HEADER-----------------------------------------------*/
 
 header{
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 header .logo{
@@ -69,6 +69,25 @@ header .categorias a{
 
 header .categorias a.activo{
     color: #000;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+    border-radius: 20px;
 }
 
 /*-------------------------------------------------GRID-----------------------------------------------*/
@@ -216,7 +235,27 @@ footer .creado-por a{
 footer .creado-por a:hover{
     text-decoration: underline;
 }
+/*-------------------------------------------------SOBRE MI-----------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#sobreMi{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+/*-------------------------------------------------CONTACTO-----------------------------------------------*/
+#contacto{
+    text-align: center;
+}
 
+#contacto .contacto__informacion span{
+    font-size: 20px;
+}
+#contacto .contacto__informacion h4{
+    font-size: 40px;
+    margin: 20px;
+    padding: 35px 0;
+    background: rgba(211, 105, 30, 0.5);
+    border-radius: 20px;
+}
 
 /*-------------------------------------------------MEDIA-----------------------------------------------*/
 
